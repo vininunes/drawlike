@@ -1,5 +1,6 @@
 # Draw Like
-Jogo de desenhar igual
+Jogo totalmente feito em C!
+Teste sua memória e seus dons artisticos!
 
 ![drawlike](https://github.com/vininunes/drawlike/blob/main/images/drawlike_img.png)
 
