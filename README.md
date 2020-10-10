@@ -1,7 +1,7 @@
 # Draw Like
 Jogo totalmente feito em C <br>
-Teste sua memória e seus dons artisticos! <br>
-Para copilar utilize as seguintes linhas de comando
+Teste sua memória e seus dons artisticos! <br><br>
+Para compilar utilize as seguintes linhas de comando
 
 ```gcc conio.o jogo.c -o [nome do executavel]```<br>
 ```./[nome do executavel]```<br><br>
