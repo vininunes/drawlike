@@ -184,6 +184,8 @@ void screenCredits();
 void screenTutorial();
 
 int main(){
+    c_clrscr();
+    c_setcursortype(0);
     screenIntroduction();
     return 0;
 }
