@@ -616,14 +616,14 @@ void writing(char text[], int cor_text, int cor_background,int x, int y){
 }
 
 void selection(int leng1, int x1, int y1, int leng2, int x2, int y2) {
-                c_gotoxy(x1 - 3 ,y1); // coordenada da opção anterior
-                printf("  "); // apaga a seleção da opção anterior
-                c_gotoxy(x1 + leng1 + 1 ,y1);
-                printf("  "); // apaga a seleção da opção anterior
-                c_gotoxy(x2 - 3 ,y2); // coordenada da opção posterior
-                printf(">>"); // mostra a seleção da opção posterior
-                c_gotoxy(x2 + leng2 + 1 ,y2);
-                printf("<<"); // mostra a seleção da opção posterior
+    c_gotoxy(x1 - 3 ,y1); // coordenada da opção anterior
+    printf("  "); // apaga a seleção da opção anterior
+    c_gotoxy(x1 + leng1 + 1 ,y1);
+    printf("  "); // apaga a seleção da opção anterior
+    c_gotoxy(x2 - 3 ,y2); // coordenada da opção posterior
+    printf(">>"); // mostra a seleção da opção posterior
+    c_gotoxy(x2 + leng2 + 1 ,y2);
+    printf("<<"); // mostra a seleção da opção posterior
 } 
 
 void originalDraw(int fase){ 
