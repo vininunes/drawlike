@@ -33,8 +33,8 @@ A pontuação é dada através da precisão atingida pelo usuário, que vária e
 #include <string.h>
 #include "conio.h"
 
-int tempo = 1;  
-int draw[13][28];
+int tempo = 1; // varivel que define o tempo de memorização 
+int draw[13][28]; // matriz do desenho do usuário
 int desenho_casa[13][28] = {
                         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
