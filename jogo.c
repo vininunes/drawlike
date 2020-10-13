@@ -255,8 +255,7 @@ void screenIntroduction(){
             if (sprite1_introduction[j][i] == 1){
                 background(" ", 4, i + 8, j + 4);
                 sleepTimer(25);
-            }
-            
+            }            
         }
     }
     for (int i = 0; i < 12; i++){
@@ -279,8 +278,7 @@ void screenIntroduction(){
             }
             if (sprite3_introduction[i][j] == 0){
                 background(" ", 0, j + 7, i + 4);
-            }
-            
+            }            
         }
     }
 
